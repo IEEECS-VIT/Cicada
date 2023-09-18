@@ -1,0 +1,22 @@
+img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: block;
+    width: 50%;
+}
+
+body {
+    background-color: black;
+    background-image: url('2.png');
+}
+
+a{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+p{
+    text-align: center;
+}

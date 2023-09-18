@@ -1,0 +1,55 @@
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     background-color: black;
+ }
+
+
+ .video-container {
+     position: relative;
+     max-width: 600px;
+
+     box-shadow: 0px 0px 10px red;
+
+     overflow: hidden;
+ }
+
+
+ video {
+     width: 100%;
+     height: auto;
+     display: block;
+ }
+
+ .play-button {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #000;
+     color: red;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     border-radius: 20px;
+     font-size: 18px;
+ }
+
+
+
+
+ video::-webkit-media-controls {
+     display: none;
+ }
+
+
+ video {
+     pointer-events: none;
+ }
+
+ .hidden {
+     display: none;
+ }
