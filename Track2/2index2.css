@@ -25,18 +25,17 @@
      display: block;
  }
 
- .play-button {
+ .toggle-button {
      position: absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-     background-color: #000;
-     color: red;
+     background-color: #333;
+     color: #000;
      padding: 10px 20px;
      border: none;
      cursor: pointer;
-     border-radius: 20px;
-     font-size: 18px;
+     border-radius: 5px;
  }
 
 
